@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Login form">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SignUp-page</title>
+    <style>
+        /* form */
+
+        .form {
+            position: relative;
+            background: #FFFFFF;
+            max-width: 500px;
+            margin: 100px auto 100px;
+            padding: 45px;
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+        }
+
+        .form input {
+            font-family: "Roboto", sans-serif;
+            outline: 0;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        .form button {
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            /* background: #4CAF50; */
+            width: 100%;
+            border: 0.em;
+            padding: 10px;
+            color: black;
+            border-color: #DF9A06;
+            font-size: 14px;
+            -webkit-transition: all 0.3 ease;
+            transition: all 0.3 ease;
+            cursor: pointer;
+        }
+
+
+        .form button:hover,
+        .form button:active,
+        .form button:focus {
+            background: #DF9A06;
+            color: #f2f2f2;
+        }
+
+        .message {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .group .checkbox {
+            
+            white-space: nowrap;
+            display: inline-block;
+        }
+
+        @media (max-width:500px) {
+
+            .form {
+                margin: 50px auto 5px;
+            }
+        }
+
+        @media (min-width:600px) and (max-width:1000px) {
+            .form {
+                margin: 120px auto 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="login-form">
+        <div class="form">
+            <h3 style="text-align: center;"><strong>Create your account</strong></h3>
+            <br>
+            <form method="POST" action="">
+                <input type="email" name="email" placeholder="Email" value="" required autocomplete="off">
+                <input type="password" name="password" placeholder="password" value="" required autocomplete="off">
+                <input type="password" name="confirm-password" placeholder="Confirm Password" value="" required
+                    autocomplete="off">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="robot" value="">I'm not a robot
+                    </label>
+                </div>
+                <div class="group">
+                    <label>
+                        <input type="checkbox" name="tnc" value="tnc"><span style="font-weight: 500;">I agree
+                            with</span>Terms and Conditions
+                    </label>
+                </div>
+                <button class="Signup-form" type="submit">Continue</button>
+                <p class="message">Do you have an account?<br>
+                    <a href="./login.html"><button class="Signup-form" type="submit">Login</button></a>
+                </p>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
