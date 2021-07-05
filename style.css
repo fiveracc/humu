@@ -61,7 +61,7 @@
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
-    background: #4CAF50;
+    background: #178EF4;
     width: 100%;
     border: 0;
     padding: 15px;
@@ -75,7 +75,7 @@
 .login_form button:hover,
 .login_form button:active,
 .login_form button:focus {
-    background: #43A047;
+    background: #1485E5;
 }
 
 .message {
@@ -97,6 +97,11 @@
 }
 
 /* signup-form */
+
+#signup_header{
+    text-align: center;
+}
+
 
 .signup_form {
     position: relative;
@@ -121,16 +126,16 @@
     font-size: 14px;
 }
 
+
 .signup_form button {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
-    /* background: #4CAF50; */
+    background: #178EF4;
     width: 100%;
-    border: 0.em;
+    border: 0;
     padding: 10px;
-    color: black;
-    border-color: #DF9A06;
+    color: #FFFFFF;
     font-size: 14px;
     -webkit-transition: all 0.3 ease;
     transition: all 0.3 ease;
@@ -141,8 +146,7 @@
 .signup_form button:hover,
 .signup_form button:active,
 .signup_form button:focus {
-    background: #DF9A06;
-    color: #f2f2f2;
+    background: #1485E5;
 }
 
 .message {
@@ -150,11 +154,7 @@
     text-align: center;
 }
 
-.group .checkbox {
-    
-    white-space: nowrap;
-    display: inline-block;
-}
+
 
 @media (max-width:500px) {
 
