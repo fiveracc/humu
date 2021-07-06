@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Humu Dashboard</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <img src="./logo.png" alt="logo" title="logo" style="height: 70px; width: 100px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#buy">Buy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#how-to">How to Buy?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sign-out" href="#">Sign Out</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="nav-hr">
+
+      <section id="banner">
+          <div class="container">
+              <div class="row">
+              <div class="col-md-6 col-sm-12 col-lg-6 left-part">
+                <h1>1 <span class="company-title">HUMU</span> =  2 USD </h1>
+                <p class="left-p">
+                    Humu platform will be open and available for everyone. Operating directly with Humu and offering direct payouts to every creator.
+                </p>
+               
+                    <div class="purchase-form">
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="humu">HUMU</label>
+                            <div class="row">
+                              <div class="col-md-6 col-sm-12 col-lg-6">
+                                <input type="text" id="field1" class="form-control" placeholder="300">
+                              </div>
+                              <div class="col-md-6 col-sm-12 col-lg-6">
+                                <button class="btn btn-lg" onclick="calculate()" style="margin-top:0px;padding-top:4px;padding-bottom:4px;">Calculate</button>
+                              </div>
+                            </div>
+                          
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="col">
+                            <label for="humu" class="mt-3">USD</label>
+                            <div class="row">
+                              <div class="col-md-12 col-sm-12 col-lg-12">
+                                <input type="text" id="field2" class="form-control" placeholder="Calculated USD">
+                              </div>
+                             
+                            </div>
+                          
+                        </div>
+                      </div>
+                    
+                    <a href="#"><button class="btn btn-block">Connect Wallet</button></a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-lg-6">
+                <div style="text-align:center;">
+                    <img src="buy.png" class="purchase-img" style="text-align:center;">
+                </div>
+                  
+            </div>
+        </div>
+          </div>
+      </section>
+
+      <section id="how-to">
+          <div class="container-fluid">
+              <h1 class="how-to-header">
+                  How to Purchase HUMU ?
+              </h1>
+              <p>
+                Here are a few steps to purchase HUMU
+              </p>
+              <div class="row steps">
+                <div class="col-md-3 col-lg-3 col-sm-12" style="text-align:center;">
+                  <img src="./metamask.png" class="icons">
+                  <p class="steps-p1">
+                    Create MetaMask Account
+                  </p>
+                  <p class="steps-p2">
+                    To purchase HUMU, you need to create MetaMask account.
+                  </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-12" style="text-align:center;">
+                  <img src="./kyc.png" class="icons">
+                  <p class="steps-p1">
+                    Sign Up
+                  </p>
+                  <p class="steps-p2">
+                    Then Sign Up on our ICO page and pass KYC.
+                  </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-12" style="text-align:center;">
+                  <img src="./amount.png" class="icons">
+                  <p class="steps-p1">
+                    Enter the Amount
+                  </p>
+                  <p class="steps-p2">
+                    After Signing Up, easily input amount of how much you would like to purchase.
+                  </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-12" style="text-align:center;">
+                  <img src="./purchase.png" class="icons">
+                  <p class="steps-p1">
+                    Connect With MetaMask
+                  </p>
+                  <p class="steps-p2">
+                    Connect with MetaMask account and press buy.
+                  </p>
+                </div>
+              </div>
+
+              <p class="red-line">
+                Note* In case if it doesn't show up in your wallet. You can add it buy using smart contract address.
+              </p>
+          </div>
+      </section>
+
+      <section id="token">
+        <div class="container">
+          <h1 class="token-header">Tokenomics</h1>
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <h6 class="inner-header">Total Supply : 100%</h6>
+              <div class="progress">
+                <div class="fill" style="width: 100%;"><span>100%</span></div>
+              </div>
+              <h6 class="inner-header">Pre-Sale : 50%</h6>
+              <div class="progress">
+                <div class="fill" style="width: 50%;"><span>50%</span></div>
+              </div>
+              <h6 class="inner-header">Liquidity : 35%</h6>
+              <div class="progress">
+                <div class="fill" style="width: 35%;"><span>35%</span></div>
+              </div>
+              <h6 class="inner-header">Burn : 5%</h6>
+              <div class="progress">
+                <div class="fill" style="width: 5%;"><span>5%</span></div>
+              </div>
+              <h6 class="inner-header">Marketting : 5%</h6>
+              <div class="progress">
+                <div class="fill" style="width: 5%;"><span>5%</span></div>
+              </div>
+              <h6 class="inner-header">Development Team : 5%</h6>
+              <div class="progress">
+                <div class="fill" style="width: 5%;"><span>5%</span></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12" style="text-align: center;">
+              <img src="./tokenomics.png" width="100%" height="90%" alt="tokenomics image" style="text-align: center;">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="details">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-lg-4 price">
+                    <h1>$2</h1>
+                    <p>Price</p>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-4 price">
+                    <h1>10 ETH</h1>
+                    <p>Soft Cap</p>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-4 price">
+                    <h1>1500 ETH</h1>
+                    <p>Hard Cap</p>
+                </div>
+                
+            </div>
+          </div>
+      </section>
+
+      <section id="footer" style="margin-bottom:50px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-lg-6">
+              <p class="footer-p">Copyright © Humu 2021. All rights reserved.</p>
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-lg-3">
+
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-lg-3">
+              <a href="#"><i class="fa social-icon fa-2x fa-twitter-square" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa social-icon fa-2x fa-reddit-square" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa social-icon fa-2x fa-telegram" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 240,
+          duration: 1000
+      });
+    </script>
+
+    <script>
+      function calculate(){
+        
+        document.getElementById("field2").value = document.getElementById("field1").value*2;
+      }
+      
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
