@@ -253,6 +253,42 @@
     padding-top:10px;
     padding-bottom:10px;
 }
+/* token */
+
+.token-header{
+    padding-top:50px;
+    padding-bottom:50px;
+    color:#3333ff;
+    text-align: center;
+    font-weight:600;
+}
+.progress{
+    background: rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+  }
+  
+  .fill{
+    animation: load 2s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background:#3333ff;
+    height: 20px;
+    width: 0;
+  }
+  
+  .fill span {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+  }
+  
 /* details */
 #details{
     background-color:#3333ff;
