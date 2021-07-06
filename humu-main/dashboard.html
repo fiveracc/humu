@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Humu Dashboard</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#buy">Buy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#how-to">How to Buy?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sign-out" href="#">Sign Out</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="nav-hr">
+
+      <section id="banner">
+          <div class="container">
+              <div class="row">
+              <div class="col-md-6 col-sm-12 col-lg-6 left-part">
+                <h1>Buy <span class="company-title">Humu</span> 2 USD Per 1 <span class="company-title">Humu</span></h1>
+                <p class="left-p">
+                    Humu platform will be open and available for everyone. Operating directly with Humu and offering direct payouts to every creator.
+                </p>
+                <form id="buy" class="purchase-form">
+                    
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="humu">HUMU</label>
+                          <input type="text" class="form-control" placeholder="300">
+                        </div>
+                        <div class="col">
+                            <label for="humu">ETH</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                    
+                    <a href="#"><button class="btn btn-block">Connect Wallet</button></a>
+                  </form>
+              </div>
+              <div class="col-md-6 col-sm-12 col-lg-6">
+                <div style="text-align:center;">
+                    <img src="buy.png" class="purchase-img" style="text-align:center;">
+                </div>
+                  
+            </div>
+        </div>
+          </div>
+      </section>
+
+      <section id="how-to">
+          <div class="container-fluid">
+              <h1 class="how-to-header">
+                  How to Purchase HUMU ?
+              </h1>
+              <p>
+                Here are a few steps to purchase HUMU
+              </p>
+              <div class="row steps">
+                <div class="col-md-3 col-lg-3 col-sm-12" style="text-align:center;">
+                  <img src="./metamask.png" class="icons">
+                  <p class="steps-p1">
+                    Create MetaMask Account
+                  </p>
+                  <p class="steps-p2">
+                    To purchase HUMU, you need to create MetaMask account.
+                  </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-12" style="text-align:center;">
+                  <img src="./kyc.png" class="icons">
+                  <p class="steps-p1">
+                    Sign Up
+                  </p>
+                  <p class="steps-p2">
+                    Then Sign Up on our ICO page and pass KYC.
+                  </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-12" style="text-align:center;">
+                  <img src="./amount.png" class="icons">
+                  <p class="steps-p1">
+                    Enter the Amount
+                  </p>
+                  <p class="steps-p2">
+                    After Signing Up, easily input amount of how much you would like to purchase.
+                  </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-12" style="text-align:center;">
+                  <img src="./purchase.png" class="icons">
+                  <p class="steps-p1">
+                    Connect With MetaMask
+                  </p>
+                  <p class="steps-p2">
+                    Connect with MetaMask account and press buy.
+                  </p>
+                </div>
+              </div>
+
+              <p class="red-line">
+                Note* In case if it doesn't show up in your wallet. You can add it buy using smart contract address.
+              </p>
+          </div>
+      </section>
+
+      <section id="details">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-lg-4 price">
+                    <h1>$2</h1>
+                    <p>Price</p>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-4 price">
+                    <h1>$56+M</h1>
+                    <p>Soft Cap</p>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-4 price">
+                    <h1>$56+M</h1>
+                    <p>Hard Cap</p>
+                </div>
+                
+            </div>
+          </div>
+      </section>
+
+      <section id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-lg-6">
+              <p class="footer-p">Copyright © Humu 2021. All rights reserved.</p>
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-lg-3">
+
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-lg-3">
+              <a href="#"><i class="fa social-icon fa-2x fa-twitter-square" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa social-icon fa-2x fa-reddit-square" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa social-icon fa-2x fa-telegram" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 240,
+          duration: 1000
+      });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
