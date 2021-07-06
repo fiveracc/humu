@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+.main-header{
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size:20px;
+    margin-top:100px;
+}
+.form-title{
+    color:red;
+    font-weight:600;
+    font-size:18px;
+}
+.middle-content{
+    margin-top:20px;
+}
+.send-btn{
+    border: 1px solid #cc9966;
+    background: none;
+    margin-top:30px;
+    padding:6px 30px;
+}
+.send-btn:hover{
+    background-color: #cc9966;
+    color:white;
+}
+
+
+/* login-form */
+
+.login_form {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 100px auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.login_form  input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.login_form  button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.login_form button:hover,
+.login_form button:active,
+.login_form button:focus {
+    background: #43A047;
+}
+
+.message {
+    margin-top: 30px;
+    text-align: left;
+}
+
+@media (max-width:500px) {
+
+    .login_form {
+        margin: 50px auto 5px;
+    }
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    .login_form {
+        margin: 120px auto 50px;
+    }
+}
+
+/* signup */
+.sign-up-title{
+    text-align:center;
+    font-size:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.submit-btn{
+    margin-top:30px;
+    background-color: #3333ff;
+}
+.form-check{
+    margin-top:20px;
+}
+.already-p{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.login-btn{
+    background: none;
+    border:1px solid #3333ff;
+    margin-bottom:40px;
+}
+.signup-form{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+
+/* dashbaord */
+.nav-hr{
+    position:relative;
+    bottom:15px;
+}
+.nav-link{
+    color:black;
+    font-weight:600;
+    font-size:15px;
+    margin-right:30px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.nav-link:hover{
+    color:#3333ff;
+}
+.navbar-brand{
+    color:black;
+}
+.sign-out{
+    background-color:#3333ff;
+    color:white;
+    border:1px solid #3333ff;
+    border-radius:4px;
+}
+.sign-out:hover{
+    color:white;
+}
+.company-title{
+    color:#3333ff;
+}
+.left-part{
+    margin-top:80px;
+}
+.left-part h1{
+    font-size:55px;
+    font-weight:700;
+}
+.left-p{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:500;
+}
+.purchase-form{
+    margin-top:40px;
+}
+.purchase-form label{
+    font-weight:700;
+}
+.purchase-form input{
+    border:1px solid #3333ff;
+}
+.purchase-form button{
+    margin-top:30px;
+    background-color: #3333ff;
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:18px;
+}
+.purchase-img{
+    height: 90%;
+    width: 100%;
+    margin-top:80px;
+}
+
+/* how-to */
+
+#how-to{
+    margin-top:110px;
+}
+#how-to h1{
+    font-size:50px;
+    text-align: center;
+}
+#how-to p{
+    text-align:center;
+    margin-top:10px;
+}
+.icons{
+    height:100px;
+}
+.steps{
+    margin-top:60px;
+    margin-bottom:40px;
+}
+.red-line{
+    text-align:center;
+    color:red;
+}
+.steps-p1{
+    font-weight: 600;
+    font-size: 16px;
+    margin-top:80px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+/* details */
+#details{
+    background-color:#3333ff;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+.price{
+    color:white;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.price h1{
+    font-size:60px;
+    text-align: center;
+}
+.price p{
+    text-align: center;
+    font-size:18px;
+}
+/* footer */
+.footer-p{
+    font-size:22px;
+}
